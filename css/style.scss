@@ -361,6 +361,10 @@ a:focus {
       }
 
       .btn-2 {
+        .btn-2 {
+          background-color: #000000; /* 黑色背景 */
+          color: #ffffff; /* 白色文字 */
+        }
         @include hero_btn($primary2, $white, 10px, 35px);
       }
     }
