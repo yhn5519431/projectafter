@@ -147,7 +147,7 @@ body {
 }
 
 .header_top {
-  background-color: #1c1c1c;
+  background-color: #000000; /* 改为黑色 */
   padding: 15px 0;
 }
 
@@ -372,7 +372,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
   border-color: #ffffff;
-  color: #ffffff;
+  color:#000000;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -844,13 +844,7 @@ a:focus {
 }
 
 .info_section .info_contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  color: #ffffff; /* 白色文字 */
 }
 
 .info_section .info_contact a {
@@ -910,9 +904,8 @@ a:focus {
 }
 
 .footer_section p {
-  color: rgba(254, 254, 255, 0.7);
-  margin: 0;
-  text-align: center;
+  background-color: #101010; /* 深灰色背景 */
+  color: rgba(254, 254, 255, 0.7); /* 白色文字 */
 }
 
 .footer_section a {
