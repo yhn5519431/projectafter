@@ -4,7 +4,49 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
 }
+.header_top {
+  background-color: #212121; /* 稍微亮一点的黑色背景 */
+  color: #ffffff; /* 白色文字 */
+}
 
+/* 增强按钮对比度 */
+.btn-1 {
+  background-color: #f1db25; /* 更亮的黄色背景 */
+  color: #000000; /* 深色文字 */
+}
+
+.btn-2 {
+  background-color: #d32f2f; /* 更鲜艳的红色 */
+  color: #ffffff; /* 白色文字 */
+}
+
+.service_section {
+  background-color: #212121; /* 亮一些的深灰色背景 */
+}
+
+.service_section .box {
+  background-color: #ffffff; /* 白色背景 */
+  color: #000000; /* 深色文字 */
+}
+
+/* 增强背景与文字的对比 */
+.contact_bg_box::before {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)); /* 更深的背景渐变 */
+}
+
+/* 调整链接的对比 */
+.info_section .info_links ul li a {
+  color: #f1db25; /* 使用亮黄色链接 */
+}
+
+.info_section .info_contact a {
+  color: #f1db25; /* 更鲜明的黄色 */
+}
+
+.footer_section {
+  background-color: #212121; /* 深灰色背景 */
+  color: #f1db25; /* 明亮的黄色文字 */
+}
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
