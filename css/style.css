@@ -1,6 +1,8 @@
 @import url("font-awesome.min.css");
 
 body {
+  background-color: #000000; /* 黑色背景 */
+  color: #ffffff; /* 白色文字 */
 }
 .header_top {
   background-color: #212121; /* 稍微亮一点的黑色背景 */
@@ -11,11 +13,13 @@ body {
 .btn-1 {
   background-color: #f1db25; /* 更亮的黄色背景 */
   color: #000000; /* 深色文字 */
+  padding: 15px 20px;
 }
 
 .btn-2 {
   background-color: #d32f2f; /* 更鲜艳的红色 */
   color: #ffffff; /* 白色文字 */
+  padding: 15px 20px;
 }
 
 .service_section {
@@ -209,6 +213,7 @@ body {
           align-items: center;
   color: #ffffff;
   font-size: 15px;
+  padding: 10px;
 }
 
 .header_top .contact_link-container a i {
@@ -288,7 +293,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  padding: 0;
+  padding: 10;
   width: 37px;
   height: 42px;
   -webkit-transition: all 0.3s;
@@ -640,6 +645,7 @@ a:focus {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 18px;
+  padding: 15px; /* 增加触控目标的大小 */
 }
 
 .client_section .carousel-control-prev:hover,
@@ -819,11 +825,11 @@ a:focus {
 }
 
 .info_section .info_links ul li a {
-  color: #ffffff; /* 白色文字 */
+  color: #f1db25; /* 使用亮黄色链接 */
 }
 
 .info_section .info_contact a {
-  color: #ffffff; /* 白色文字 */
+  color: #f1db25; /* 更鲜明的黄色 */
 }
 
 .info_section .info_form form button {
@@ -832,8 +838,8 @@ a:focus {
 }
 
 .footer_section {
-  background-color: #101010; /* 深灰色背景 */
-  color: rgba(254, 254, 255, 0.7); /* 白色文字 */
+  background-color: #212121; /* 深灰色背景 */
+  color: #f1db25; /* 明亮的黄色文字 */
 }
 
 .footer_section a {
