@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">>
 
 <head>
   <!-- Basic -->
@@ -32,7 +32,7 @@
     <!-- header section strats -->
     <div class="hero_bg_box">
       <div class="img-box">
-        <img src="images/hero-bg.jpg" alt="">
+        <img src="images/hero-bg.jpg" alt="Hero Background" class="lazyload">
       </div>
     </div>
 
@@ -127,7 +127,17 @@
           </div>
           <div class="carousel-item ">
             <div class="container">
-              <div class="row">
+              <div class="row">document.addEventListener("DOMContentLoaded", function() {
+                const images = document.querySelectorAll("img");
+                images.forEach(img => {
+                  if (!img.hasAttribute("width")) {
+                    img.setAttribute("width", img.naturalWidth);
+                  }
+                  if (!img.hasAttribute("height")) {
+                    img.setAttribute("height", img.naturalHeight);
+                  }
+                });
+              });
                 <div class="col-md-7">
                   <div class="detail-box">
                     <h1>
@@ -194,7 +204,7 @@
         <div class="col-md-6 px-0">
           <div class="img_container">
             <div class="img-box">
-              <img src="images/about-img.jpg" alt="" />
+              <img src="images/about-img.jpg" alt="Hero Background" class="lazyload" />
             </div>
           </div>
         </div>
@@ -441,7 +451,7 @@
           <div class="carousel-item active">
             <div class="box">
               <div class="img-box">
-                <img src="images/client.png" alt="">
+                <img src="images/client.webp" alt="">
               </div>
               <div class="detail-box">
                 <h4>
@@ -459,7 +469,7 @@
           <div class="carousel-item ">
             <div class="box">
               <div class="img-box">
-                <img src="images/client.png" alt="">
+                <img src="images/client.webp" alt="">
               </div>
               <div class="detail-box">
                 <h4>
@@ -477,8 +487,70 @@
           <div class="carousel-item ">
             <div class="box">
               <div class="img-box">
-                <img src="images/client.png" alt="">
-              </div>
+                <img src="images/client.webp" alt="">
+              </div><script>
+                document.addEventListener("DOMContentLoaded", function() {
+                  const images = document.querySelectorAll("img");
+                  images.forEach(img => {
+                    if (!img.hasAttribute("width")) {
+                      img.setAttribute("width", "auto");
+                    }
+                    if (!img.hasAttribute("height")) {
+                      img.setAttribute("height", "auto");
+                    }
+                  });
+                });
+              </script><!DOCTYPE html>
+              <html>
+
+              <head>
+                <!-- Basic -->
+                <meta charset="utf-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <!-- Mobile Metas -->
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                <!-- Site Metas -->
+                <meta name="keywords" content="" />
+                <meta name="description" content="" />
+                <meta name="author" content="" />
+                <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+                <title>Guarder</title>
+
+                <!-- bootstrap core css -->
+                <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+                <!-- fonts style -->
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+                <!-- Custom styles for this template -->
+                <link href="css/style.css" rel="stylesheet" />
+                <!-- responsive style -->
+                <link href="css/responsive.css" rel="stylesheet" />
+              </head>
+
+              <body>
+                <div class="hero_area">
+                  <!-- header section strats -->
+                  <div class="hero_bg_box">
+                    <div class="img-box">
+                      <img data-src="images/hero-bg.jpg" alt="" class="lazyload">
+                    </div>
+                  </div>
+
+                  <!-- 其他部分省略 -->
+
+                </div>
+
+                <!-- 其他部分省略 -->
+
+                <script src="js/jquery-3.4.1.min.js"></script>
+                <script src="js/bootstrap.js"></script>
+                <script src="js/custom.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+              </body>
+
+              </html>
               <div class="detail-box">
                 <h4>
                   Minim Veniam
